@@ -22,7 +22,7 @@ public class Revista {
         numero++;
     }
 
-    public Edicion[] getEdiciones() {
+    public Edicion[] getEdiciones() { // funcion getter, en este caso tiene que devolver un array de ediciones porque son muchas
         return ediciones;
     }
 }
